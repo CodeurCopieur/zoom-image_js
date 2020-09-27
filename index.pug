@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Zoom image Vanilla Javascript
+
+    link(rel="stylesheet", href="assets/css/index.css")
+
+  body
+
+    .container
+      .vanilla-zoom
+        .sidebar
+          each val, index in ['assets/img/speaker-closeup.jpg', 'assets/img/speaker-lemons.jpg', 'assets/img/speaker-touch.jpg']
+            img(src= val, alt="").small-preview
+        .zoomed-image
+    
+    script(src="assets/js/index.js")
+        
