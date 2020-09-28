@@ -57,4 +57,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-right: 5px; }
+  margin-right: 5px;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s; }
